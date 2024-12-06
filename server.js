@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const fs = require("fs");
 const app = express();
-const PORT = 3001; // Port dla backendu
+const PORT = 10000; // Port dla backendu
 
 // Ścieżka do pliku przechowującego licznik
 const COUNTER_FILE = "./counter.json";
